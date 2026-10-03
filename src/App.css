@@ -1,0 +1,89 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #282d35;
+  font-family: Inter, Arial, sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  width: 550px;
+  background-color: #282d35;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+  height: 91px;
+  background-color: #21222a;
+  display: flex;
+  align-items: center;
+  padding: 0 27px;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-img {
+  width: 28px;
+  height: 28px;
+}
+
+.nav-title {
+  color: #61dafb;
+  font-size: 22px;
+  font-weight: 700;
+}
+.main {
+  padding: 40px 27px;
+  background-image: url("./assets/reactjs-icon\ 2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
+
+
+.main-facts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-facts > li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.footer {
+  padding: 0 27px 30px;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #61dafb;
+}
