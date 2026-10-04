@@ -1,4 +1,4 @@
-import dotIcon from "../assets/Ellipse 1.svg"; // استيراد صورة النقطة الزرقاء
+import dotIcon from "../assets/Ellipse 1.svg";  
 
 export default function Main() {
   const facts = [
